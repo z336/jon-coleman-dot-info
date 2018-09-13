@@ -1,0 +1,23 @@
+{
+  "name": "jon-coleman-dot-info",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z336/jon-coleman-dot-info.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z336/jon-coleman-dot-info/issues"
+  },
+  "homepage": "https://z336.github.io/jon-coleman-dot-info",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
