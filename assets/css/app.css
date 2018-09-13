@@ -1,0 +1,221 @@
+/* Navigation */
+header {
+  color: #66CDAA;
+  min-height: 5rem;
+  padding-top: 2.5rem;
+}
+
+header h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  margin: 0;
+}
+
+header #branding {
+  float: left;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header ul li {
+  display: inline;
+  float: left;
+}
+
+header nav {
+  float: right;
+  margin-top: .5rem;
+}
+
+header .fab, header .fas {
+  font-size: 2rem;
+  color: #66CDAA;
+}
+
+@media (max-width: 767px) {
+  header #branding, header nav, header nav ul li {
+    float: none;
+    text-align: center;
+  }
+}
+
+/* Footer */
+footer {
+  color: #66CDAA;
+  min-height: 5rem;
+  text-align: center;
+}
+
+/* Home */
+body {
+  background-color: #3f3f40;
+  color: #66CDAA;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Roboto Mono", monospace;
+}
+
+#brand-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+p, a, li {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.container {
+  padding-right: 1.25rem;
+  padding-left: 1.25rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* Showcase */
+#showcase {
+  min-height: 5rem;
+}
+
+#showcase h1 {
+  font-family: "Open Sans", sans-serif;
+  margin-top: 5rem;
+}
+
+#showcase h1, #showcase p {
+  font-size: 3rem;
+  text-align: center;
+}
+
+@media (max-width: 320px) {
+  #showcase h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Boxes */
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+
+@media (max-width: 750px) {
+  .boxes {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.box {
+  margin: 4rem;
+  text-align: center;
+}
+
+.fab, .fas {
+  padding: .15rem;
+  font-size: 3rem;
+  width: 3rem;
+  text-decoration: none;
+}
+
+.build {
+  overflow: hidden;
+  border-right: .15em solid orange;
+  white-space: nowrap;
+  margin: 0 auto;
+  -webkit-animation: typing 3.5s steps(20, end), blink-caret 0.75s step-end infinite;
+          animation: typing 3.5s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+
+.build-padding {
+  padding-bottom: 1rem;
+}
+
+@-webkit-keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@-webkit-keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+@keyframes blink-caret {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+/*# sourceMappingURL=app.css.map */
